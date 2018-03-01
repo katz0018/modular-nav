@@ -31,7 +31,7 @@ nav ul li{
   display: inline-block;
 }
 
-h1{
+h1, nav{
   text-align: center;
 }
 
@@ -47,5 +47,13 @@ a:hover {
 
 nav ul {
   list-style: none;
-  padding-left: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+    html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 }
