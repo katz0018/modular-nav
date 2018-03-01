@@ -27,11 +27,11 @@ header {
   background-color: #e2e2e2;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
 }
 
-h1, nav{
+h1, nav {
   text-align: center;
 }
 
@@ -54,6 +54,14 @@ nav ul {
     html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
   }
 
 }
